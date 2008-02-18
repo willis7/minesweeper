@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lua - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/lua.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lua\lua.c"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP2A.tmp"" 
+Creating temporary file "C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP2B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ../lib/luacore/Release/liblua.lib ../lib/luastandard/Release/liblualib.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/lua.pdb" /debug /machine:I386 /out:"Debug/lua.exe" /pdbtype:sept 
+".\Debug\lua.obj"
+]
+Creating command line "link.exe @"C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP2B.tmp""
+<h3>Output Window</h3>
+Compiling...
+lua.c
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+lua.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

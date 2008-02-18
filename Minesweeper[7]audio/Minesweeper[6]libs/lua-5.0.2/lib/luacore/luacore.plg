@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: luacore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../include" /I "../dosgame" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/luacore.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lapi.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lcode.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\ldebug.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\ldo.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\ldump.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lfunc.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lgc.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\llex.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lmem.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lobject.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lopcodes.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lparser.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lstate.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lstring.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\ltable.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\ltests.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\ltm.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lundump.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lvm.c"
+"C:\Documents and Settings\bus-md\My Documents\lua-5.0.2\src\lzio.c"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP18.tmp"" 
+Creating temporary file "C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /out:"Debug\liblua.lib" 
+".\Debug\lapi.obj"
+".\Debug\lcode.obj"
+".\Debug\ldebug.obj"
+".\Debug\ldo.obj"
+".\Debug\ldump.obj"
+".\Debug\lfunc.obj"
+".\Debug\lgc.obj"
+".\Debug\llex.obj"
+".\Debug\lmem.obj"
+".\Debug\lobject.obj"
+".\Debug\lopcodes.obj"
+".\Debug\lparser.obj"
+".\Debug\lstate.obj"
+".\Debug\lstring.obj"
+".\Debug\ltable.obj"
+".\Debug\ltests.obj"
+".\Debug\ltm.obj"
+".\Debug\lundump.obj"
+".\Debug\lvm.obj"
+".\Debug\lzio.obj"
+]
+Creating command line "link.exe -lib @"C:\DOCUME~1\bus-md\LOCALS~1\Temp\RSP19.tmp""
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+lcode.c
+ldebug.c
+ldo.c
+ldump.c
+lfunc.c
+lgc.c
+llex.c
+lmem.c
+lobject.c
+lopcodes.c
+lparser.c
+lstate.c
+lstring.c
+ltable.c
+ltests.c
+ltm.c
+lundump.c
+lvm.c
+lzio.c
+Creating library...
+
+
+
+<h3>Results</h3>
+liblua.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

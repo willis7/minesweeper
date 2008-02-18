@@ -1,0 +1,32 @@
+The Lua functions are as follows:
+
+-moveX
+-moveY
+
+are functions called from C++ for the movement of the character. They use a "if else" loop because Lua doesnt have case's.
+
+-configScreen 
+
+sets up all the necessary OpenGL perameters window width and height.
+
+-configPlayer
+
+calls the nested table from Lua that holds players name and starting position. Could be used for multiplayer.
+
+-tableTraverse
+
+is used recursively to get all objects from the nested table
+
+-randNumbGen
+
+is the function Lua will call for a random number
+
+-randNumGlue
+
+this is the function that bonds the c function and Lua
+
+-initRandNum
+
+this is where you get Lua to execute the script and call the c function
+
+** Right click on mouse to get mine locations
